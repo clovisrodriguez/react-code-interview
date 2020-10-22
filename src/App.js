@@ -1,12 +1,16 @@
 import React from 'react';
 import Home from './pages/Home';
-import './App.style.css'
+import { Route, Switch, Redirect } from 'react-router-dom';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Layout>
+      <Switch>
+        <Redirect exact path={'/'} to="/list/1" />
+        <Route path={'/list/:pageId/'} component={Home} />
+      </Switch>
+    </Layout>
   );
 }
 

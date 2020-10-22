@@ -1,0 +1,12 @@
+.Layout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 5em;
+}

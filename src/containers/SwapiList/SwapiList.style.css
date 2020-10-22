@@ -1,0 +1,22 @@
+caption {
+    font-size: 1.4em;
+}
+
+table {
+    margin-top: 2em;
+}
+
+th {
+    background-color: #042355;
+    color: white;
+    height: 2em;
+}
+
+tr {
+    cursor: pointer;
+}
+
+td {
+    height: 2em;
+    border: 1px black solid;
+}
